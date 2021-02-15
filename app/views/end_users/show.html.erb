@@ -1,0 +1,35 @@
+<div class="c_box__user">
+  <div class="a_flex c_box__user_inner">
+    <%= image_tag "hamu.jpg", size: "100x100",class:"c_photo__user" %>
+    <div class="c_introduction__user">
+      <strong>名前</strong>
+      <p>自己紹介です。</p>
+    </div>
+  </div>
+</div>
+
+
+<div class="c__radio">
+    <input id="favorite" type="radio" name="b_item__radio" checked>
+    <label class="b_item__radio" for="favorite">お気に入り</label>
+    <input id="report" type="radio" name="b_item__radio">
+    <label class="b_item__radio" for="report">れぽーと</label>
+    <input id="fridge" type="radio" name="b_item__radio">
+    <label class="b_item__radio" for="fridge">冷蔵庫</label>
+
+    <div class="b_content__radio" id="favorite_content">
+      <div class="a_flex">
+        <div class="c_box__favorite">
+          <% 3.times do %>
+            <%= image_tag "cake.jpg", size: "240x240",class:"c_photo__favorite" %>
+            <p>メニュー名</p>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="b_content__radio" id="report_content">
+      レポート
+</div>
+    <div class="b_content__radio" id="fridge_content">
+        冷蔵庫
+</div>
