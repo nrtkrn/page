@@ -253,6 +253,10 @@ header {
   margin: 0 0 72px 24px;
 }
 
+.c_photo__recipe_show {
+  border-radius: 12px;
+}
+
 .c_show {
   margin-left: 40px;
 }
@@ -333,57 +337,7 @@ header {
   margin-top: 8px;
 }
 
-.c_button__tab {
-  border-top: 1px #908d89 solid;
-  border-bottom:  1px #908d89 solid;
-}
-
-.c_button__tab_inner {
-  width: 90%;
-  height: 48px;
-  margin: 0 auto;
-}
-
-.c_button__tab input {
-  color: #908d89;
-  background-color: #fff;
-  width: 30%;
-  margin-left: 20px;
-  height: 100%;
-  font-size: 16px;
-  border: none;
-  display: none;
-}
-
-.c_button__tab input:focus {
-  color: #dbb34e;
-}
-
-.page1 {
-  display:block;
-  width:320px;
-  height:320px;
-  background-color:red;
-  color:white;
-  font-weight:bold;
-}
-.page2 {
-  display:none;
-  width:320px;
-  height:320px;
-  background-color:green;
-  color:white;
-  font-weight:bold;
-}
-.page3 {
-  display:none;
-  width:320px;
-  height:320px;
-  background-color:blue;
-  color:white;
-  font-weight:bold;
-}
-
+  /* 画面切替 */
 .c__radio {
   background-color: #fff;
   margin: 0 auto;}
@@ -410,12 +364,10 @@ input[name="b_item__radio"] {
   display: none;
 }
 
-/*タブ切り替えの中身のスタイル*/
 .b_content__radio {
   display: none;
-  padding: 40px 40px 0;
+  padding: 40px 40px 20px;
   clear: both;
-  overflow: hidden;
 }
 
 #favorite:checked ~ #favorite_content,
@@ -427,6 +379,43 @@ input[name="b_item__radio"] {
 .c__radio input:checked + .b_item__radio {
   color: #dbb34e;
   border-bottom: 3px #dbb34e solid;
+}
+  /* */
+.b_box__radio {
+  flex-flow: wrap;
+}
+
+  /* お気に入り&&れぽーと */
+.b_box__radio_inner {
+  width: calc(100%/3);
+  margin-bottom: 20px;
+}
+
+.b_link__radio {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.b_box__radio_inner:nth-child(3n+1):nth-last-child(-n+3),
+.b_box__radio_inner:nth-child(3n+1):nth-last-child(-n+3) ~ .b_box__radio_inner {
+  margin-bottom: 0;
+}
+  /* */
+
+.b_photo__radio {
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.c_text__report {
+  width: 240px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 /* フッター */

@@ -10,26 +10,41 @@
 
 
 <div class="c__radio">
-    <input id="favorite" type="radio" name="b_item__radio" checked>
-    <label class="b_item__radio" for="favorite">お気に入り</label>
-    <input id="report" type="radio" name="b_item__radio">
-    <label class="b_item__radio" for="report">れぽーと</label>
-    <input id="fridge" type="radio" name="b_item__radio">
-    <label class="b_item__radio" for="fridge">冷蔵庫</label>
+  <input id="favorite" type="radio" name="b_item__radio" checked>
+  <label class="a_pointer b_item__radio" for="favorite">お気に入り</label>
+  <input id="report" type="radio" name="b_item__radio">
+  <label class="a_pointer b_item__radio" for="report">れぽーと</label>
+  <input id="fridge" type="radio" name="b_item__radio">
+  <label class="a_pointer b_item__radio" for="fridge">冷蔵庫</label>
 
-    <div class="b_content__radio" id="favorite_content">
-      <div class="a_flex">
-        <div class="c_box__favorite">
-          <% 3.times do %>
-            <%= image_tag "cake.jpg", size: "240x240",class:"c_photo__favorite" %>
-            <p>メニュー名</p>
+  <div class="b_content__radio" id="favorite_content">
+    <div class="a_flex b_box__radio">
+      <% 4.times do %>
+        <div class="b_box__radio_inner">
+          <%= link_to(root_path, class:"b_link__radio") do %>
+            <%= image_tag "cake.jpg", size: "240x240",class:"b_photo__radio" %>
+            <h3>メニュー名</h3>
           <% end %>
         </div>
-      </div>
+      <% end %>
     </div>
-    <div class="b_content__radio" id="report_content">
-      レポート
-</div>
-    <div class="b_content__radio" id="fridge_content">
-        冷蔵庫
+  </div>
+
+  <div class="b_content__radio" id="report_content">
+    <div class="a_flex b_box__radio">
+      <% 8.times do %>
+        <div class="b_box__radio_inner">
+          <%= link_to(root_path, class:"b_link__radio") do %>
+            <%= image_tag "cake.jpg", size: "240x240",class:"b_photo__radio" %>
+            <h3>メニュー名</h3>
+            <p class="c_text__report">ここにレポート文が入ります。ここにレポート文が入ります。ここにレポート文が入ります。ここにレポート文が入ります。ここにレポート文が入ります。</p>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="b_content__radio" id="fridge_content">
+      冷蔵庫
+  </div>
 </div>
