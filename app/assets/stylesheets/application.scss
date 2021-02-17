@@ -20,7 +20,6 @@
   margin: 0;
   list-style: none;
   text-decoration: none;
-  overflow : hidden;
 	outline : none;
 }
 
@@ -401,14 +400,14 @@ input[name="b_item__radio"] {
 .b_box__radio_inner:nth-child(3n+1):nth-last-child(-n+3) ~ .b_box__radio_inner {
   margin-bottom: 0;
 }
-  /* */
 
 .b_photo__radio {
   display: block;
   margin: 0 auto;
   border-radius: 12px;
 }
-
+  /* */
+  /* 冷蔵庫 */
 .c_text__report {
   width: 240px;
   display: -webkit-box;
@@ -416,6 +415,44 @@ input[name="b_item__radio"] {
   -webkit-line-clamp: 2;
   overflow: hidden;
   margin: 0 auto;
+}
+
+.c_box__fridge_inner {
+}
+
+.b_box__food {
+  width: calc(100%/3);
+}
+
+.b_box__food > p {
+  width: 200px;
+  text-align: center;
+}
+
+.b_box__food_inner {
+  border: 1px #908d89 solid;
+  border-radius: 12px;
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.b_count__food {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.b_count__food > p {
+  margin-right: 8px;
+}
+
+.b_count__food_inner {
+  width: 8px;
+  height: 8px;
+  margin: 0 4px;
+  border-radius: 50%;
+  background-color: red;
 }
 
 /* フッター */
