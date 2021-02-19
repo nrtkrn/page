@@ -300,12 +300,12 @@ header {
 
 .c_field__date input[type="date"] {
   border-style: none;
+  background-color: #fff;
   width: 100%;
   height: 32px;
   border-radius: 4px;
   padding: 0 8px;
   border: 1px #c3c7c3 solid;
-  cursor: pointer;
 }
 
 .c_submit__date input[type="submit"] {
@@ -430,7 +430,7 @@ input[name="b_item__radio"] {
 }
 
 .b_box__food {
-  width: calc(100%/3);
+  width: calc(100%/4);
 }
 
 .b_box__food > p {
@@ -524,7 +524,7 @@ input[name="b_item__radio"] {
   margin: 16px 0 8px;
 }
 
-.b_submit__setting  input[type="submit"] {
+.b_submit__setting input[type="submit"] {
   width: 120px;
   height: 32px;
   border-radius: 12px;
@@ -532,6 +532,71 @@ input[name="b_item__radio"] {
   bottom: 0;
   right: 80px;
   margin: 0;
+}
+
+/* fridge_items#new */
+.c_box__fridge {
+  margin: 32px;
+  padding: 0;
+}
+
+.c_box__fridge > h3 {
+  margin-bottom: 16px;
+}
+
+.c_box__fridge_inner{
+  flex-flow: wrap;
+  width: calc(100% - 320px /2);
+  margin: 0 auto;
+}
+
+.b_box__fridge_item {
+  width: 50%;
+}
+
+.b_box__fridge_item > p {
+
+  margin-bottom: 4px;
+}
+
+.b_box__fridge_item:first-child, .b_box__fridge_item:nth-child(2) {
+  margin-bottom: 24px;
+}
+
+.b_field__fridge_item select {
+  background-color: #fff;
+  height: 24px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+
+.b_field__fridge_item select:first-child {
+  width: 50%;
+}
+
+.b_field__fridge_item select:nth-child(2) {
+  width: 20%;
+}
+
+.b_input__fridge {
+  color: #4b4a49;
+  background-color: #fff;
+  width: 16px;
+  height: 16px;
+  line-height: 100%;
+  border: none;
+  font-weight: bold;
+}
+
+.c_submit__fridge_item {
+  width: 120px;
+  margin: 32px 0 0 auto;
+}
+
+.c_submit__fridge_item input[type="submit"] {
+  width: 56px;
+  margin-right: 80px;
+  border-radius: 12px;
 }
 
 /* フッター */
