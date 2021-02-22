@@ -765,6 +765,131 @@ input[name="b_item__radio"] {
   border-radius: 12px;
 }
 
+/* user_menus#index */
+.c_box__menu_index {
+  margin: 0 5%;
+  height: 580px;
+}
+
+.c_box__left {
+  overflow: hidden scroll;
+  width: 60%;
+  margin-right: 16px;
+}
+
+.c_box__left::-webkit-scrollbar{
+  width: 10px;
+}
+
+.c_box__left::-webkit-scrollbar-track{
+  background: #e0d4b5;
+  border: none;
+  border-radius: 10px;
+}
+.c_box__left::-webkit-scrollbar-thumb{
+  background: #dbb34e;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.c_box__menu {
+  padding: 32px;
+  padding-right: 24px;
+}
+
+.c_box__menu_inner > h2 {
+  margin-bottom: 16px;
+}
+
+.c_photo__menu_index {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+.c_box__update_num {
+  width: 50%;
+}
+
+.c_box__update_num_inner {
+  position: relative;
+  height: 32px;
+}
+
+.c_box__update_num_inner select {
+  height: 20px;
+  margin-right: 8px;
+  border-radius: 8px;
+  border:1px #c3c7c3 solid;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.c_box__update_num_inner input[type="submit"] {
+  background-color: #fff;
+  border-radius: 12px;
+  width: 95%;
+  height: 32px;
+  text-align: right;
+  padding-right: 30%;
+  margin: 0;
+}
+
+.c_box__link_menu {
+  width: 50%;
+}
+
+.c_link__menu_index {
+  width: 95%;
+  margin-left: 5%;
+  height: 32px;
+  border-radius: 12px;
+  line-height: 32px;
+}
+
+.c_link__menu_index:first-child {
+  margin-bottom: 8px;
+}
+
+.c_box__right {
+  width: 40%;
+  position: relative;
+}
+
+.c_box__lack_food {
+  padding: 32px;
+}
+
+.c_box__lack_food_inner {
+  border: 1px #6e6a65 solid;
+  border-radius: 12px;
+  margin: 16px;
+  text-align: center;
+  padding: 16px;
+}
+
+.c_box__lack_food_inner > div {
+  margin-bottom: 8px;
+}
+
+.c_box__lack_food_inner > div:nth-child(n+11) {
+  display: none;
+}
+
+.c_box__lack_food_inner > div:last-child {
+  margin-bottom: 0;
+}
+
+.c_link__list_of_shopping {
+  position: absolute;
+  right: 36px;
+  bottom: 64px;
+  width: 80%;
+}
+
 
 
 /* フッター */
