@@ -193,19 +193,19 @@
           <div>
             <%= form_with url: root_path, method: :get do |f| %>
               <div class="a_flex c_form__setting">
-              <div class="c_form__setting_inner">
-                <p class="b_text__setting">ご家庭の人数</p>
-                <div class="b_field__setting">
-                  <%= f.select :dammy, [1,2,3,4,5,6,7,8,9,10], include_blank: "人数" %>
+                <div class="c_form__setting_inner">
+                  <p class="b_text__setting">ご家庭の人数</p>
+                  <div class="b_field__setting">
+                    <%= f.select :dammy, [1,2,3,4,5,6,7,8,9,10], include_blank: "人数" %>
+                  </div>
+                  <p class="b_text__setting">調理時間</p>
+                  <div class="b_field__setting">
+                    <%= f.select :dammy, [1,2,3,4,5,6,7,8,9,10], include_blank: "〜時間以内" %>
+                  </div>
                 </div>
-                <p class="b_text__setting">調理時間</p>
-                <div class="b_field__setting">
-                  <%= f.select :dammy, [1,2,3,4,5,6,7,8,9,10], include_blank: "〜時間以内" %>
+                <div class="a_actions a_pointer b_submit__setting">
+                  <%= f.submit "変更" %>
                 </div>
-              </div>
-              <div class="a_actions a_pointer b_submit__setting">
-                <%= f.submit "変更" %>
-              </div>
               </div>
             <% end %>
           </div>

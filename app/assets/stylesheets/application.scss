@@ -426,6 +426,56 @@ header {
   color: #fff;
 }
 
+/* recipes#edit */
+.c_box__recipes_edit_item {
+  width: 50%;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.c_box__recipes_edit_inner {
+  width: 320px;
+  margin: 0 auto 0 0;
+  border: 1px #6e6a65 solid;
+  border-radius: 12px;
+  padding: 8px 0;
+}
+
+.c_form__recipes_edit {
+  margin: 16px;
+}
+
+
+.c_form__recipes_edit_inner {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.c_form__recipes_edit_inner > p {
+  margin-left: 16px;
+  line-height: 32px;
+}
+
+.c_form__recipes_edit_inner select {
+  width: 64px;
+  height: 32px;
+  background-color: #fff;
+  margin-left: 72px;
+  border-radius: 8px;
+}
+
+.c_submit__recipes_edit {
+  width: 100px;
+  margin: auto 0 0;
+}
+
+.c_submit__recipes_edit  input[type="submit"] {
+  width: 80px;
+  height: 32px;
+  margin: 0 8px;
+  border-radius: 12px;
+}
+
 
 /* end_users#show */
 .c_box__user_inner {
