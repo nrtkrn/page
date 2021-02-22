@@ -350,6 +350,10 @@ header {
   position: relative;
 }
 
+.c_box__ranking_item:nth-child(n+51) {
+  display: none;
+}
+
 .c_pop{
   position: relative;
   padding: 20px;
