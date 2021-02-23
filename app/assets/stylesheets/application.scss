@@ -68,6 +68,10 @@
   color: #dbb34e;
 }
 
+.a_link__black {
+  color: black;
+}
+
 /* 文章省略 */
 .a_text__abbreviation {
   width: 240px;
@@ -129,7 +133,6 @@ header {
 .c_table__announce {
   margin: 0 auto 16px;
 }
-
 
 .c_field__announce select {
   width: 100px;
@@ -394,9 +397,7 @@ header {
 }
 
 .c_link__ranking_item {
-  color: black;
   text-align: center;
-  text-decoration: none;
 }
 
 .c_box__photo_ranking {
@@ -549,8 +550,6 @@ input[name="b_item__radio"] {
 
 .b_link__radio {
   text-align: center;
-  text-decoration: none;
-  color: black;
 }
 
 .b_box__radio_inner:nth-child(3n+1):nth-last-child(-n+3),
@@ -890,7 +889,53 @@ input[name="b_item__radio"] {
   width: 80%;
 }
 
+/* user_menus#new */
+.c_box__menu_new {
+  width: 640px;
+  margin: 0 auto;
+}
+.c_box__menu_new_inner {
+  flex-wrap: wrap;
+  margin: 120px auto 50px;
+}
 
+.b_box__menu_new_item:first-child, .b_box__menu_new_item:nth-child(2) {
+  margin-bottom: 32px;
+}
+
+.b_box__menu_new_item:nth-child(2n) {
+  margin: 0 0 0 auto;
+}
+
+.c_photo__menu_new {
+  border-radius: 12px;
+}
+
+.c_box__menu_new_bottom_inner {
+  width: 208px;
+  margin: 0 0 0 auto;
+}
+
+.c_box__menu_new_bottom_inner select {
+  height: 32px;
+  border-radius: 8px;
+}
+
+.c_box__menu_new_bottom_inner input[type="submit"] {
+  width: 160px;
+  margin: 0 0 0 auto;
+  border-radius: 8px;
+}
+
+.c_box__decided {
+  width: 248px;
+  margin: 24px 0 50px auto;
+}
+
+.c_box__decided > div {
+  width: 63px;
+  margin-left: 8px;
+}
 
 /* フッター */
 footer {

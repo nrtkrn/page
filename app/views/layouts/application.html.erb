@@ -23,7 +23,7 @@
       </div>
     </header>
 
-    <% if false %>
+    <% if true %>
       <div class="c_box__announce">
         <div class="c_box__announce_inner c_fadein">
           <%= form_with url: root_path, method: :get do |f| %>
@@ -33,8 +33,10 @@
                   <tr>
                     <th>
                       <div>
-                        <%= image_tag 'cake.jpg', size: '100x100',class:"c_photo__rank" %>
-                        <p>メニュー名</p>
+                        <%= link_to(root_path, class:"a_link__black") do %>
+                          <%= image_tag 'cake.jpg', size: '100x100',class:"c_photo__rank" %>
+                          <p>メニュー名</p>
+                        <% end %>
                       </div>
                     </th>
                     <td>
