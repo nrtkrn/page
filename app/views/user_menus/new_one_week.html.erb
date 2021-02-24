@@ -14,42 +14,14 @@
 
       <div class="c_box__one_week_main">
         <div class="a_flex c_box__one_week_main_inner">
-          <div class="b_box__one_week_item">
-            <p>1日後の日付</p>
-            <div class="b_box__one_week_item_inner">
-              <%= render "new_week_item" %>
+          <% 6.times do %>
+            <div class="b_box__one_week_item">
+              <p>~日後の日付</p>
+              <div class="b_box__one_week_item_inner">
+                <%= render "new_week_item" %>
+              </div>
             </div>
-          </div>
-          <div class="b_box__one_week_item">
-            <p>2日後の日付</p>
-            <div class="b_box__one_week_item_inner">
-              <%= render "new_week_item" %>
-            </div>
-          </div>
-          <div class="b_box__one_week_item">
-            <p>3日後の日付</p>
-            <div class="b_box__one_week_item_inner">
-              <%= render "new_week_item" %>
-            </div>
-          </div>
-          <div class="b_box__one_week_item">
-            <p>4日後の日付</p>
-            <div class="b_box__one_week_item_inner">
-              <%= render "new_week_item" %>
-            </div>
-          </div>
-          <div class="b_box__one_week_item">
-            <p>5日後の日付</p>
-            <div class="b_box__one_week_item_inner">
-              <%= render "new_week_item" %>
-            </div>
-          </div>
-          <div class="b_box__one_week_item">
-            <p>6日後の日付</p>
-            <div class="b_box__one_week_item_inner">
-              <%= render "new_week_item" %>
-            </div>
-          </div>
+          <% end %>
         </div>
       </div>
 
@@ -57,7 +29,9 @@
         <h3>足りない食材一覧</h3>
         <div class="a_flex c_box__one_week_bottom_inner">
           <% 5.times do %>
-            <p>ほうれん草</p>
+            <div class="c_box__week_lack_food">
+              <p>ほうれん草</p>
+            </div>
           <% end %>
         </div>
       </div>

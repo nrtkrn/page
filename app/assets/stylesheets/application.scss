@@ -981,6 +981,7 @@ input[name="b_item__radio"] {
   height: 32px;
   border-radius: 8px;
   margin-right: 8px;
+  background-color: #fff;
 }
 
 .c_select__one_week_item > p {
@@ -1001,14 +1002,21 @@ input[name="b_item__radio"] {
   border: 1px #6e6a65 solid;
   border-radius: 20px;
   padding: 24px 24px 16px;
-  display: flex;
   flex-flow: wrap;
-  justify-content: center;
 }
 
-.c_box__one_week_bottom_inner > p {
+.c_box__week_lack_food {
+  width: 49%;
   margin-bottom: 8px;
-  margin-right: 24px;
+  margin-right: 2%;
+}
+
+.c_box__week_lack_food:nth-child(2n) {
+  margin-right: 0;
+}
+
+.c_box__week_lack_food > p {
+  text-align: center;
 }
 
 .c_button_decided_week_menu {
