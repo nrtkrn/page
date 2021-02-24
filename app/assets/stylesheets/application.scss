@@ -48,7 +48,8 @@
 
 .a_actions input[type="submit"]:hover {
   cursor: pointer;
-  background-color: #c3c7c3;
+  background-color: #dbb34e;
+  color: #fff;
 }
 
 /* リンク */
@@ -935,6 +936,95 @@ input[name="b_item__radio"] {
 .c_box__decided > div {
   width: 63px;
   margin-left: 8px;
+}
+
+/* user_menus#new_one_week */
+.c_box__one_week_top_inner {
+  width: 560px;
+  margin: 0 auto;
+}
+.c_text_one_week_top_inner {
+  width: 240px;
+  height: 320px;
+  text-align: center;
+  line-height: 280px;
+}
+
+.c_box__one_week_main_inner {
+  flex-wrap: wrap;
+}
+
+.b_box__one_week_item {
+  width: calc(100%/3);
+}
+
+.b_box__one_week_item > p {
+  font-size: 32px;
+  text-align: center;
+  border-top: 1px #dbb34e solid;
+  border-bottom: 1px #dbb34e solid;
+  margin: 48px 0;
+}
+
+.b_box__one_week_item_inner {
+  width: 240px;
+  margin: 0 auto;
+}
+
+.c_select__one_week_item {
+  margin: 32px 40px;
+  text-align: center;
+}
+
+.c_select__one_week_item select {
+  width: 120px;
+  height: 32px;
+  border-radius: 8px;
+  margin-right: 8px;
+}
+
+.c_select__one_week_item > p {
+  line-height: 32px;
+}
+
+.c_submit__one_week_item input[type="submit"] {
+  border-radius: 12px;
+}
+
+.c_box__one_week_bottom {
+  width: 40%;
+  margin: 56px auto;
+}
+
+.c_box__one_week_bottom_inner {
+  margin-top: 16px;
+  border: 1px #6e6a65 solid;
+  border-radius: 20px;
+  padding: 24px 24px 16px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.c_box__one_week_bottom_inner > p {
+  margin-bottom: 8px;
+  margin-right: 24px;
+}
+
+.c_button_decided_week_menu {
+  margin: 0 auto 48px;
+  width: 50%;
+}
+
+.c_button_decided_week_menu input[type="submit"] {
+  background-color: #dbb34e;
+  color: #fff;
+  border-radius: 12px;
+}
+
+.c_button_decided_week_menu input[type="submit"]:hover {
+  background-color: #fff;
+  color: #dbb34e;
 }
 
 /* フッター */
