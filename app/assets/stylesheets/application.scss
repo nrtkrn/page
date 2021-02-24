@@ -141,6 +141,7 @@ header {
   padding: 0 16px;
   margin-left: 12px;
   border-radius: 8px;
+  background-color: #fff;
 }
 
 .c_submit__announce {
@@ -1033,6 +1034,43 @@ input[name="b_item__radio"] {
 .c_button_decided_week_menu input[type="submit"]:hover {
   background-color: #fff;
   color: #dbb34e;
+}
+
+/* need_ingredients#index */
+.c_box__shopping_list_inner {
+  margin: 80px 48px;
+}
+
+.c_box__shopping_list_item {
+  border-bottom: 1px #dbb34e dashed;
+  margin-top: 8px;
+}
+
+.c_box__shopping_list_item_inner {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.c_box__shopping_list_item_inner > p {
+  width: 210px;
+  line-height: 32px;
+  margin: 8px 0 8px 85px;
+  text-align: center;
+}
+
+.c_submit__buy {
+  width: 210px;
+}
+
+.c_submit__buy input[type="submit"] {
+  width: 50%;
+  border-radius: 12px;
+}
+
+.c_link__part_add {
+  width: 90%;
+  margin: 48px auto;
+  border-radius: 12px;
 }
 
 /* フッター */
