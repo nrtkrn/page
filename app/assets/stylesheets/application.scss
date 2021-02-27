@@ -252,6 +252,38 @@ header {
   padding-left: 40px;
 }
 
+/* recipes#new */
+.b_box__add_new_item {
+  width: 346px;
+}
+
+.b_box__add_new_item:first-child {
+  margin-right: 48px;
+}
+
+.b_box__add_new_item:nth-child(3) {
+  width: 732px;
+}
+
+.b_box__add_new_item select, .b_box__add_new_item input[type="text"] {
+  height: 24px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+  width: 288px;
+}
+
+.b_box__add_new_item input[type="text"] {
+  border: 1px #6e6a65 solid;
+  width: 288px;
+  margin-right: 104px;
+}
+
+.c_field__new_item > .a_input__add {
+  margin: 4px 0 0 16px;
+}
+
+/*  */
+
 /* recipes#show */
 .c_lack__per {
   width: 440px;
@@ -699,7 +731,8 @@ input[name="b_item__radio"] {
 }
 
 /* fridge_items#new */
-  /* "a_" は ingredients#new と共通 */
+  /*  ingredients#new と共通 */
+    /*  recipes#new と共通 */
 .a_box__add_new {
   margin: 32px;
   padding: 0;
@@ -723,14 +756,6 @@ input[name="b_item__radio"] {
   margin-bottom: 0;
 }
 
-.a_box__add_item {
-  width: 50%;
-}
-
-.a_box__add_item > p {
-  margin-bottom: 4px;
-}
-
 .a_input__add {
   color: #4b4a49;
   background-color: #fff;
@@ -750,6 +775,15 @@ input[name="b_item__radio"] {
   width: 56px;
   margin-right: 80px;
   border-radius: 12px;
+}
+    /*  */
+
+.a_box__add_item {
+  width: 50%;
+}
+
+.a_box__add_item > p {
+  margin-bottom: 4px;
 }
   /*  */
 
