@@ -699,36 +699,59 @@ input[name="b_item__radio"] {
 }
 
 /* fridge_items#new */
-.c_box__fridge_new {
+  /* "a_" は ingredients#new と共通 */
+.a_box__add_new {
   margin: 32px;
   padding: 0;
 }
 
-.c_box__fridge_new > h3 {
+.a_box__add_new > h3 {
   margin-bottom: 16px;
 }
 
-.c_box__fridge_new_inner{
+.a_box__add_new_inner{
   flex-flow: wrap;
   width: calc(100% - 320px /2);
   margin: 0 auto;
 }
 
-.c_box__fridge_new_inner > div {
+.a_box__add_new_inner > div {
   margin-bottom: 24px;
 }
 
-.c_box__fridge_new_inner > div:nth-child(5) {
+.a_box__add_new_inner > div:nth-child(5) {
   margin-bottom: 0;
 }
 
-.b_box__fridge_item {
+.a_box__add_item {
   width: 50%;
 }
 
-.b_box__fridge_item > p {
+.a_box__add_item > p {
   margin-bottom: 4px;
 }
+
+.a_input__add {
+  color: #4b4a49;
+  background-color: #fff;
+  width: 16px;
+  height: 16px;
+  line-height: 100%;
+  border: none;
+  font-weight: bold;
+}
+
+.a_submit__add_item {
+  width: 120px;
+  margin: 32px 0 0 auto;
+}
+
+.a_submit__add_item input[type="submit"] {
+  width: 56px;
+  margin-right: 80px;
+  border-radius: 12px;
+}
+  /*  */
 
 .b_field__fridge_item select {
   background-color: #fff;
@@ -743,27 +766,6 @@ input[name="b_item__radio"] {
 
 .b_field__fridge_item select:nth-child(2) {
   width: 20%;
-}
-
-.b_input__fridge {
-  color: #4b4a49;
-  background-color: #fff;
-  width: 16px;
-  height: 16px;
-  line-height: 100%;
-  border: none;
-  font-weight: bold;
-}
-
-.c_submit__fridge_item {
-  width: 120px;
-  margin: 32px 0 0 auto;
-}
-
-.c_submit__fridge_item input[type="submit"] {
-  width: 56px;
-  margin-right: 80px;
-  border-radius: 12px;
 }
 
 /* user_menus#index */
@@ -1072,6 +1074,16 @@ input[name="b_item__radio"] {
   margin: 48px auto;
   border-radius: 12px;
 }
+
+/* ingredients#new */
+.b_field__test_item select {
+  width: 25%;
+  background-color: #fff;
+  height: 24px;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+/*  */
 
 /* フッター */
 footer {
