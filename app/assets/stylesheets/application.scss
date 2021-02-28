@@ -62,11 +62,15 @@
 
 .a_box__link:hover {
   cursor: pointer;
-  background-color: #c3c7c3;
+  background-color: #dbb34e;
 }
 
 .a_link {
   color: #dbb34e;
+}
+
+.a_link:hover {
+  color: #fff;
 }
 
 .a_link__black {
@@ -1116,6 +1120,33 @@ input[name="b_item__radio"] {
   height: 24px;
   border-radius: 8px;
   margin-bottom: 4px;
+}
+/*  */
+
+/* testers#show */
+.c_box__test_link {
+  margin: 48px;
+}
+
+.b_link__tester {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.b_link__test {
+  width: 100%;
+  display: inline-block;
+}
+
+.c_border__test {
+  border: 1px #6e6a65 solid;
+  border-radius: 20px;
+  width: 80%;
+  margin: 48px auto;
+}
+
+.c_border__test_inner {
+  margin: 24px;
 }
 /*  */
 
